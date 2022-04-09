@@ -20,7 +20,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['react', "jsx-a11y"],
+  plugins: ['react', 'jsx-a11y'],
   rules: {
     'react/react-in-jsx-scope': 'off'
   }
