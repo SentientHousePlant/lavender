@@ -10,7 +10,8 @@ module.exports = {
     'google',
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:jsx-a11y/strict'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -19,7 +20,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['react'],
+  plugins: ['react', "jsx-a11y"],
   rules: {
     'react/react-in-jsx-scope': 'off'
   }
